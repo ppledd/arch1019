@@ -1,0 +1,4 @@
+<resources>
+
+    <string name="code_permission_denied">权限未授予</string>
+</resources>

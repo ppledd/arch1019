@@ -1,0 +1,7 @@
+include ':video'
+include ':bar-code'
+include ':filepicker'
+include ':chat'
+rootProject.name='Arch'
+include ':app'
+include ':arch'
