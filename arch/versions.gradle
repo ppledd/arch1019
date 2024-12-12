@@ -179,7 +179,7 @@ deps.mmkv_lite = "com.tencent:mmkv:$versions.mmkv"
 // 腾讯Mars
 def mars = [:]
 mars.core = "com.github.Tencent.mars:mars-core:v1.2.1"
-mars.xlog = "com.tencent.mars:mars-xlog:$versions.mars"
+mars.xlog = "com.github.Tencent.mars:mars-xlog:v1.2.1"
 deps.mars = mars
 // ProtoBuf
 deps.proto = "com.google.protobuf:protobuf-java:$versions.proto"
