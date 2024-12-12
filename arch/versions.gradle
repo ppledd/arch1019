@@ -189,7 +189,7 @@ deps.permissionx = "com.permissionx.guolindev:permissionx:$versions.permissionx"
 // WebView
 deps.dsbridge = "com.github.wendux:DSBridge-Android:$versions.dsbridge"
 // Shape Drawable框架
-deps.background = "com.noober.background:core:$versions.background"
+deps.background = "com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.6"
 // retrofit动态域名切换框架
 deps.retrofit_url = "me.jessyan:retrofit-url-manager:$versions.retrofit_url"
 // 自定义TabLayout
