@@ -135,7 +135,7 @@ object Arch {
         if (debug) {
             Xlog.appenderOpen(
                 Xlog.LEVEL_VERBOSE, Xlog.AppednerModeAsync, "", logPath,
-                "DEBUG_$logFileName", 0, ""
+                "DEBUG_$logFileName",  ""
             )
             Xlog.setConsoleLogOpen(true)
             Log.setLevel(Log.LEVEL_VERBOSE, false)
@@ -143,7 +143,7 @@ object Arch {
         } else if (encryptKey.isNotEmpty()) {
             Xlog.appenderOpen(
                 Xlog.LEVEL_INFO, Xlog.AppednerModeAsync, "", logPath,
-                logFileName, 0, encryptKey
+                logFileName,  encryptKey
             )
             Xlog.setConsoleLogOpen(false)
             Log.setLogImp(Xlog())
