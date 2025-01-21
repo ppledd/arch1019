@@ -62,13 +62,13 @@ dependencies {
     api deps.lifecycle.viewmodel_ktx
     api deps.lifecycle.livedata_ktx
 
-    api deps.koin.core
-    //api deps.koin.core_ext
-    api deps.koin.android
-    //api deps.koin.android_scope
-    //api deps.koin.android_viewmodel
-    //api deps.koin.android_fragment
-    //api deps.koin.android_ext
+   /* api deps.koin.core
+    api deps.koin.android*/
+
+    api "io.insert-koin:koin-core:2.1.6"
+    api "io.insert-koin:koin-android:2.1.6"
+    api 'io.insert-koin:koin-androidx-viewmodel:2.1.6'
+    api 'io.insert-koin:koin-androidx-scope:2.1.6'
 
     api deps.okhttp.okhttp3
     api deps.okhttp.logging_interceptor
