@@ -84,11 +84,7 @@ object Arch {
 
         // 初始化依赖注入
         startKoin {
-            if (debug) {
-                androidLogger(Level.DEBUG)
-            } else {
-                androidLogger(Level.ERROR)
-            }
+            androidLogger(Level.ERROR)
             androidContext(this@Arch.context)
 
             inject?.invoke(this)
