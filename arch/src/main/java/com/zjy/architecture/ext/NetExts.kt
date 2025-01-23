@@ -71,7 +71,7 @@ fun createOkHttpClient(manager: RetrofitUrlManager?, sslFactory: SSLSocketFactor
     if (Arch.debug) {
         val loggingInterceptor = HttpLoggingInterceptor()
         loggingInterceptor.level = HttpLoggingInterceptor.Level.BODY
-        builder.addInterceptor(loggingInterceptor)
+        builder.addNetworkInterceptor(loggingInterceptor)
     }
     return builder.build()
 }
